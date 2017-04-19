@@ -5,7 +5,7 @@ ENV LANG C.UTF-8
 RUN gem install s3_website
 
 RUN apt-get update
-RUN apt-get install -y openjdk-7-jre-headless
+RUN apt-get install -y openjdk-7-jre-headless advancecomp gifsicle jhead jpegoptim libjpeg-progs optipng pngcrush pngquant
 
 VOLUME ["/website", "/config"]
 
